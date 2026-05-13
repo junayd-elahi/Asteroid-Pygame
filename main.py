@@ -11,13 +11,13 @@ def main():
 	pygame.init()
 	screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-	while true:
+	while True:
 		log_state()
 
 		for event in pygame.event.get():
 			pass
 		screen.fill("black")
-		program.display.fip()
+		pygame.display.flip()
 
 
 if __name__ == "__main__":
